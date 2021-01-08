@@ -9,7 +9,7 @@ Note: change classpath database jar dependencies and database authentication det
 # db setup using docker compose
 docker-compose -f docker/docker-compose.yml up
 
-#flyway goals or tasks
+# flyway goals or tasks
 ### gradle
 - migrate: **gradlew flywayMigrate**,Migrate a database. 
 - clean: **gradlew flywayClean**,Drops all objects in the configured schemas. 
