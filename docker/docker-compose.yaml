@@ -1,0 +1,14 @@
+version: "3.0"
+services:
+  postgres-db:
+    image: postgres
+    ports:
+      - "10000:5432"
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+    volumes:
+      - "db:/var/lib/postgresql"
+volumes:
+  db:

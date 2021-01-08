@@ -43,7 +43,7 @@
 				<version>7.3.1</version>
 				<configuration>
 					<driver>org.postgresql.Driver</driver>
-					<url>jdbc:postgresql://192.168.1.3:10000/user_management</url>
+					<url>jdbc:postgresql://localhost:10000/postgres</url>
 					<user>postgres</user>
 					<password>password</password>
 					<locations>
